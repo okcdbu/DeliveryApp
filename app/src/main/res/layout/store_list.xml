@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_name"
+    android:layout_alignParentLeft="true"
+    android:text="NAME"
+    android:layout_marginLeft="20sp"
+    android:fontFamily="@font/notosans"
+    android:textSize="30sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp">
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginTop="5sp"
+            android:src="@drawable/ic_star"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.0"
+            android:fontFamily="@font/notosans"
+            android:textSize="20sp"
+            android:layout_marginLeft="5sp"
+            android:id="@+id/tv_rate"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="연락처:"
+            android:layout_marginLeft="20sp"
+            android:fontFamily="@font/notosans"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="000-0000-0000"
+            android:id="@+id/tv_Tel"
+            android:textSize="20sp"
+            android:fontFamily="@font/notosans"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100sp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="배달소요시간 : "
+        android:fontFamily="@font/notosans"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00분"
+        android:id="@+id/tv_time"
+        android:fontFamily="@font/notosans"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="배달팁 : "
+        android:fontFamily="@font/notosans"
+        android:layout_marginLeft="10sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0원"
+        android:fontFamily="@font/notosans"
+        android:id="@+id/tv_tip"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100sp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최수주문금액 : "
+        android:fontFamily="@font/notosans"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_minprice"
+        android:text="9000원"
+        android:fontFamily="@font/notosans"/>
+</LinearLayout>
+</LinearLayout>

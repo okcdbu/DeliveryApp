@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/address"
+            android:text="주소지"
+            android:textSize="22sp"
+            tools:text="주소지" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오늘은 뭐먹지??"
+        android:layout_gravity="center"
+        android:textSize="32sp"/>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+
+        android:layout_gravity="center"
+        android:rowCount="2">
+        <Button
+            android:id="@+id/korean"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:background="@drawable/ic_bibimbap"
+            android:text="한식"
+            android:fontFamily="@font/notosans"
+            android:textSize="25sp"
+            android:textColor="#555555"/>
+        <Button
+            android:id="@+id/chinese"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text="중식"
+            android:background="@drawable/ic_jajangmyeon"
+            android:fontFamily="@font/notosans"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/japanese"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text="일식"
+            android:background="@drawable/ic_sushi"
+            android:fontFamily="@font/notosans"
+            android:textSize="25sp"
+            android:textColor="#FC5E45"/>
+        <Button
+            android:id="@+id/western"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text="양식"
+            android:background="@drawable/ic_spaguetti"
+            android:fontFamily="@font/notosans"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/snack"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text="분식"
+            android:background="@drawable/ic_ramen"
+            android:fontFamily="@font/notosans"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/chicken"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text="치킨"
+            android:background="@drawable/ic_chicken"
+            android:fontFamily="@font/notosans"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"/>
+
+
+
+    </GridLayout>
+</LinearLayout>
